@@ -12,7 +12,9 @@ function normalizeURL(urlString) {
 }
 
 function getURLsFromHTML(htmlBody, baseURL) {
-  
+  const urls = [];
+
+  return urls;
 }
 
 module.exports = {

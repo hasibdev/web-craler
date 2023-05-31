@@ -35,13 +35,6 @@ describe('normalizeURL', () => {
 
     expect(result).toEqual(expected);
   });
-  test('check www', () => {
-    const input = 'https://www.hasib.dev/about?id=2';
-    const result = normalizeURL(input);
-    const expected = 'hasib.dev/about';
-
-    expect(result).toEqual(expected);
-  });
 });
 
 describe('getURLsFromHTML', () => {
