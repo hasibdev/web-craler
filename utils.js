@@ -11,7 +11,12 @@ function normalizeURL(urlString) {
   return hostPath;
 }
 
+function getURLsFromHTML(htmlBody, baseURL) {
+  
+}
+
 module.exports = {
   sum,
   normalizeURL,
+  getURLsFromHTML,
 };
